@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7181f404f1447c0a7a17b3070b952b, type: 3}
+  m_Name: PlatformShape
+  m_EditorClassIdentifier: 
+  m_Angles:
+  - m_Start: -45
+    m_End: 45
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: fe52c305d557f2d4f8941633e41294f5, type: 3}
+  - m_Start: -135
+    m_End: -45
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 14289572f7b132b4eb4d2ffc78ad3b7b, type: 3}
+  - m_Start: 45
+    m_End: 135
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: a042acec01d31b54890319277b85127a, type: 3}
+  - m_Start: -225
+    m_End: -135
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: eb3dc2946ecd4cc47a881b85f058f86d, type: 3}
+  m_FillTexture: {fileID: 2800000, guid: 9af08a1c4600cf6499ad4c1bbce76081, type: 3}
+  m_CornerSprites:
+  - m_CornerType: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: c61920848e4e0234da442b4e6b77db8a, type: 3}
+  - m_CornerType: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: 21309b9d72afe9a439c71fc30f3fe4d9, type: 3}
+  - m_CornerType: 2
+    m_Sprites:
+    - {fileID: 21300000, guid: 2a5ffda9f6736b3419445aea7db717d3, type: 3}
+  - m_CornerType: 3
+    m_Sprites:
+    - {fileID: 21300000, guid: b3c2295c0b31a254e867ab5cb0021d8c, type: 3}
+  - m_CornerType: 4
+    m_Sprites:
+    - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  - m_CornerType: 5
+    m_Sprites:
+    - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  - m_CornerType: 6
+    m_Sprites:
+    - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  - m_CornerType: 7
+    m_Sprites:
+    - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
+  m_FillOffset: 0
+  m_UseSpriteBorders: 1
